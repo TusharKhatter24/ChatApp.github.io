@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+        height: 99vh;
+        background-image: url("../style/logo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        h1{
+            margin: 5px auto;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            opacity: 0.5;
+            text-align: center;
+            -webkit-text-stroke: 1px white;
+        }
+        .main{
+            height: 75vh;
+            overflow-y: auto;
+            .message{
+                background-color: black;
+                opacity: 0.8;
+                color: white;
+                width: 25%;
+                padding: 10px;
+                margin: 17px 12px;
+                border: 2px solid rgb(196, 192, 192);
+                border-radius: 10px;
+            }
+            .left{
+                float: left;
+                clear: both;
+            }
+            .right{
+                float: right;
+                clear: both;
+            }
+            .centre{
+                margin: 2px auto;
+                clear: both;
+            }
+        }
+    }
+}

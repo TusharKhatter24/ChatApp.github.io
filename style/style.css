@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  height: 99vh;
+  background-image: url("../style/logo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+* body h1 {
+  margin: 5px auto;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.5;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+}
+
+* body .main {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+* body .main .message {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  width: 25%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid #c4c0c0;
+  border-radius: 10px;
+}
+
+* body .main .left {
+  float: left;
+  clear: both;
+}
+
+* body .main .right {
+  float: right;
+  clear: both;
+}
+
+* body .main .centre {
+  margin: 2px auto;
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */
